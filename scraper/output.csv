@@ -1286,88 +1286,87 @@ Match Id,Round,W_name,W_seed,W_Wc,W_country,W_set1,W_set2,W_set3,W_set4,W_set5,L
 2006_W_32_9,R32,Miss Ivana Abramovic,,1,CRO,6,2,7,,,Miss Stephanie Cohen-Aloro,,,FRA,2,6,5,,
 2006_W_32_10,R32,Miss Meilen Tu,18,,USA,6,6,,,,Miss Galina Voskoboeva,10,,RUS,2,0,,,
 2006_W_32_11,R32,Miss Yaroslava Shvedova,,,RUS,6,6,,,,Miss Tatiana Poutchek,11,,BLR,4,1,,,
-2006_W_32_12,R32,Miss Kirsten Flipkens,12,,BEL,7,7,,,,Miss Olga Poutchkova,16,,BLR,5,5,,,
-2010_W_128_1,R128,Kaia Kanepi,1,,EST,6,7,,,,Olga Savchuk,,,UKR,1,5,,,
-2010_W_128_2,R128,Elena Bovina,,,RUS,4,6,11,,,Mandy Minella,,,LUX,6,4,9,,
-2010_W_128_3,R128,Ekaterina Dzehalevich,,,BLR,6,6,,,,Arina Rodionova,,,RUS,0,0,,,
-2010_W_128_4,R128,Ajla Tomljanovic,,,CRO,1,6,6,,,Kristina Kucova,24,,SVK,6,4,1,,
-2010_W_128_5,R128,Sesil Karatantcheva,,,KAZ,4,6,6,,,Johanna Jenny Larsson,2,,SWE,6,3,4,,
-2010_W_128_6,R128,Nuria Llagostera Vives,,,ESP,6,6,,,,Darya Kustova,,,BLR,2,1,,,
-2010_W_128_7,R128,Xinyun Han,,,CHN,5,7,8,,,Julia Schruff,,,GER,7,5,6,,
-2010_W_128_8,R128,Vesna Manasieva,15,,RUS,6,6,,,,Lauren Riley Albanese,,,USA,2,1,,,
-2010_W_128_9,R128,Ksenia Pervak,3,,RUS,6,7,,,,Alexandra Panova,,,RUS,2,5,,,
-2010_W_128_10,R128,Romina Sarina Oprandi,,,ITA,6,6,,,,Aniko Kapros,,,HUN,1,1,,,
-2010_W_128_11,R128,Ekaterina Ivanova,,,RUS,6,6,,,,Katalin Marosi,,,HUN,1,4,,,
-2010_W_128_12,R128,Shannon Maree Golds,,,AUS,7,6,,,,Stephanie Cohen-Aloro,23,,FRA,6,4,,,
-2010_W_128_13,R128,Bethanie Mattek-Sands,4,,USA,6,6,,,,Iryna Kuryanovich,,,BLR,2,1,,,
-2010_W_128_14,R128,Nina Bratchikova,,,RUS,7,6,,,,Elena Chalova,,,RUS,6,1,,,
-2010_W_128_15,R128,Julie Ditty,,,USA,6,6,,,,Margalita Chakhnashvili,,,GEO,4,3,,,
-2010_W_128_16,R128,Jelena Dokic,21,,AUS,6,6,,,,Melanie Klaffner,,,AUT,2,1,,,
-2010_W_128_17,R128,Shuai Zhang,5,,CHN,6,6,6,,,Anna Tatishvili,,,GEO,1,7,2,,
-2010_W_128_18,R128,Severine Beltrame,,,FRA,6,7,,,,Julia Cohen,,,USA,3,6,,,
-2010_W_128_19,R128,Marina Erakovic,,1,NZL,6,7,6,,,Emily Webley-Smith,,1,GBR,7,6,3,,
-2010_W_128_20,R128,Shenay Perry,17,,USA,6,7,,,,Lucy Brown,,1,GBR,2,5,,,
-2010_W_128_21,R128,Simona Halep,6,,ROU,6,7,6,,,Yulia Fedossova,,,FRA,7,6,2,,
-2010_W_128_22,R128,Anastasiya Yakimova,,,BLR,6,7,,,,Rebecca Marino,,,CAN,4,6,,,
-2010_W_128_23,R128,Misaki Doi,,,JPN,4,7,8,,,Ivana Lisjak,,,CRO,6,5,6,,
-2010_W_128_24,R128,Corinna Dentoni,,,ITA,6,2,6,,,Lilia Osterloh,18,,USA,4,6,4,,
-2010_W_128_25,R128,Evgeniya Rodina,7,,RUS,6,6,,,,Laura Pous Tio,,,ESP,4,2,,,
-2010_W_128_26,R128,Beatriz Garcia-Vidagany,,,ESP,4,7,6,,,Olivia Sanchez,,,FRA,6,6,3,,
-2010_W_128_27,R128,Madison Brengle,,,USA,6,6,,,,Ksenia Palkina,,,KGZ,2,1,,,
-2010_W_128_28,R128,Greta Arn,20,,HUN,6,6,,,,Irina Buryachok,,,UKR,2,4,,,
-2010_W_128_29,R128,Eva Birnerova,,,CZE,6,6,,,,Patricia Mayr,8,,AUT,2,3,,,
-2010_W_128_30,R128,Mirjana Lucic,,,CRO,6,6,,,,Anna Smith,,1,GBR,4,2,,,
-2010_W_128_31,R128,Zuzana Ondraskova,,,CZE,4,6,6,,,Rika Fujiwara,,,JPN,6,3,0,,
-2010_W_128_32,R128,Michaella Krajicek,13,,NED,6,6,,,,Neuza Silva,,,POR,1,3,,,
-2010_W_128_33,R128,Kurumi Nara,,,JPN,3,6,6,,,Sophie Ferguson,9,,AUS,6,3,2,,
-2010_W_128_34,R128,Tamira Paszek,,1,AUT,6,6,,,,Irina Begu,,,ROU,4,2,,,
-2010_W_128_35,R128,Nikola Hofmanova,,,AUT,6,6,,,,Naomi Broady,,1,GBR,4,4,,,
-2010_W_128_36,R128,Stephanie Dubois,14,,CAN,6,6,,,,Eloisa Compostizo De Andres,,,ESP,1,1,,,
-2010_W_128_37,R128,Ekaterina Bychkova,10,,RUS,3,6,6,,,Olivia Rogowska,,,AUS,6,2,3,,
-2010_W_128_38,R128,Junri Namigata,,,JPN,6,4,14,,,Karolina Pliskova,,,CZE,2,6,12,,
-2010_W_128_39,R128,Monica Niculescu,,,ROU,6,6,,,,Jocelyn Rae,,1,GBR,3,4,,,
-2010_W_128_40,R128,Vitalia Diatchenko,,,RUS,6,6,,,,Kathrin Woerle,19,,GER,2,3,,,
-2010_W_128_41,R128,Anna Floris,,,ITA,7,3,6,,,Mona Barthel,,,GER,5,6,2,,
-2010_W_128_42,R128,Lisa Whybourn,,1,GBR,6,7,,,,Sally Peers,,,AUS,4,6,,,
-2010_W_128_43,R128,Naomi Cavaday,,,GBR,6,3,6,,,Lesya Tsurenko,,,UKR,2,6,3,,
-2010_W_128_44,R128,Andrea Hlavackova,22,,CZE,7,4,6,,,Oksana Kalashnikova,,,GEO,5,6,3,,
-2010_W_128_45,R128,Masa Zec Peskiric,12,,SLO,7,6,,,,Catalina Castano,,,COL,5,2,,,
-2010_W_128_46,R128,Eleni Daniilidou,,,GRE,7,6,,,,Heidi El Tabakh,,,CAN,6,3,,,
-2010_W_128_47,R128,Maria Irigoyen,,,ARG,3,6,4,,,Yi-Miao Zhou,,,CHN,6,2,1,,
-2010_W_128_48,R128,Anastasia Pivovarova,16,,RUS,6,6,,,,Silvia Soler Espinosa,,,ESP,1,3,,,
-2010_W_64_1,R64,Kaia Kanepi,1,,EST,6,6,,,,Elena Bovina,,,RUS,1,2,,,
-2010_W_64_2,R64,Ajla Tomljanovic,,,CRO,6,6,,,,Ekaterina Dzehalevich,,,BLR,4,3,,,
-2010_W_64_3,R64,Nuria Llagostera Vives,,,ESP,6,2,6,,,Sesil Karatantcheva,,,KAZ,3,6,3,,
-2010_W_64_4,R64,Vesna Manasieva,15,,RUS,6,6,,,,Xinyun Han,,,CHN,2,3,,,
-2010_W_64_5,R64,Romina Sarina Oprandi,,,ITA,6,6,,,,Ksenia Pervak,3,,RUS,3,4,,,
-2010_W_64_6,R64,Ekaterina Ivanova,,,RUS,6,6,,,,Shannon Maree Golds,,,AUS,2,2,,,
-2010_W_64_7,R64,Bethanie Mattek-Sands,4,,USA,6,0,6,,,Nina Bratchikova,,,RUS,3,6,2,,
-2010_W_64_8,R64,Julie Ditty,,,USA,5,7,6,,,Jelena Dokic,21,,AUS,7,5,2,,
-2010_W_64_9,R64,Severine Beltrame,,,FRA,6,6,,,,Shuai Zhang,5,,CHN,0,2,,,
-2010_W_64_10,R64,Shenay Perry,17,,USA,6,6,,,,Marina Erakovic,,1,NZL,4,2,,,
-2010_W_64_11,R64,Anastasiya Yakimova,,,BLR,6,6,,,,Simona Halep,6,,ROU,4,1,,,
-2010_W_64_12,R64,Misaki Doi,,,JPN,6,6,,,,Corinna Dentoni,,,ITA,4,2,,,
-2010_W_64_13,R64,Beatriz Garcia-Vidagany,,,ESP,6,6,,,,Evgeniya Rodina,7,,RUS,4,2,,,
-2010_W_64_14,R64,Greta Arn,20,,HUN,6,7,,,,Madison Brengle,,,USA,1,6,,,
-2010_W_64_15,R64,Mirjana Lucic,,,CRO,6,7,,,,Eva Birnerova,,,CZE,1,5,,,
-2010_W_64_16,R64,Michaella Krajicek,13,,NED,6,6,,,,Zuzana Ondraskova,,,CZE,2,3,,,
-2010_W_64_17,R64,Kurumi Nara,,,JPN,7,6,,,,Tamira Paszek,,1,AUT,5,4,,,
-2010_W_64_18,R64,Stephanie Dubois,14,,CAN,7,6,,,,Nikola Hofmanova,,,AUT,6,4,,,
-2010_W_64_19,R64,Junri Namigata,,,JPN,3,6,6,,,Ekaterina Bychkova,10,,RUS,6,4,4,,
-2010_W_64_20,R64,Monica Niculescu,,,ROU,7,6,,,,Vitalia Diatchenko,,,RUS,5,2,,,
-2010_W_64_21,R64,Lisa Whybourn,,1,GBR,6,6,,,,Anna Floris,,,ITA,1,4,,,
-2010_W_64_22,R64,Andrea Hlavackova,22,,CZE,6,6,,,,Naomi Cavaday,,,GBR,1,2,,,
-2010_W_64_23,R64,Eleni Daniilidou,,,GRE,6,6,,,,Masa Zec Peskiric,12,,SLO,2,2,,,
-2010_W_64_24,R64,Anastasia Pivovarova,16,,RUS,6,6,,,,Maria Irigoyen,,,ARG,2,4,,,
-2010_W_32_1,R32,Kaia Kanepi,1,,EST,6,6,,,,Ajla Tomljanovic,,,CRO,1,2,,,
-2010_W_32_2,R32,Nuria Llagostera Vives,,,ESP,7,6,,,,Vesna Manasieva,15,,RUS,6,4,,,
-2010_W_32_3,R32,Romina Sarina Oprandi,,,ITA,6,3,6,,,Ekaterina Ivanova,,,RUS,3,6,4,,
-2010_W_32_4,R32,Bethanie Mattek-Sands,4,,USA,6,4,6,,,Julie Ditty,,,USA,1,6,4,,
-2010_W_32_5,R32,Shenay Perry,17,,USA,3,6,6,,,Severine Beltrame,,,FRA,6,4,3,,
-2010_W_32_6,R32,Anastasiya Yakimova,,,BLR,2,6,6,,,Misaki Doi,,,JPN,6,4,4,,
-2010_W_32_7,R32,Greta Arn,20,,HUN,5,6,6,,,Beatriz Garcia-Vidagany,,,ESP,7,3,2,,
-2010_W_32_8,R32,Mirjana Lucic,,,CRO,6,6,,,,Michaella Krajicek,13,,NED,3,2,,,
-2010_W_32_9,R32,Kurumi Nara,,,JPN,7,6,,,,Stephanie Dubois,14,,CAN,6,4,,,
-2010_W_32_10,R32,Monica Niculescu,,,ROU,6,6,,,,Junri Namigata,,,JPN,4,0,,,
-2010_W_32_11,R32,Andrea Hlavackova,22,,CZE,6,6,,,,Lisa Whybourn,,1,GBR,1,2,,,
-2010_W_32_12,R32,Eleni Daniilidou,,,GRE,6,6,,,,Anastasia Pivovarova,16,,RUS,0,0,,,
+2006_W_32_12,R32,Miss Kirsten Flipkens,12,,BEL,7,7,,,,Miss Olga Poutchkova,16,,BLR,5,5,,,2010_W_128_1,R128,Kaia Kanepi,1,,EST,6,7,,,,1,1,0,0,0,2,Olga Savchuk,,,UKR,1,5,,,,1,1,0,0,0,2
+2010_W_128_2,R128,Elena Bovina,,,RUS,4,6,11,,,1,1,1,0,0,3,Mandy Minella,,,LUX,6,4,9,,,1,1,1,0,0,3
+2010_W_128_3,R128,Ekaterina Dzehalevich,,,BLR,6,6,,,,1,1,0,0,0,2,Arina Rodionova,,,RUS,0,0,,,,1,1,0,0,0,2
+2010_W_128_4,R128,Ajla Tomljanovic,,,CRO,1,6,6,,,1,1,1,0,0,3,Kristina Kucova,24,,SVK,6,4,1,,,1,1,1,0,0,3
+2010_W_128_5,R128,Sesil Karatantcheva,,,KAZ,4,6,6,,,1,1,1,0,0,3,Johanna Jenny Larsson,2,,SWE,6,3,4,,,1,1,1,0,0,3
+2010_W_128_6,R128,Nuria Llagostera Vives,,,ESP,6,6,,,,1,1,0,0,0,2,Darya Kustova,,,BLR,2,1,,,,1,1,0,0,0,2
+2010_W_128_7,R128,Xinyun Han,,,CHN,5,7,8,,,1,1,1,0,0,3,Julia Schruff,,,GER,7,5,6,,,1,1,1,0,0,3
+2010_W_128_8,R128,Vesna Manasieva,15,,RUS,6,6,,,,1,1,0,0,0,2,Lauren Riley Albanese,,,USA,2,1,,,,1,1,0,0,0,2
+2010_W_128_9,R128,Ksenia Pervak,3,,RUS,6,7,,,,1,1,0,0,0,2,Alexandra Panova,,,RUS,2,5,,,,1,1,0,0,0,2
+2010_W_128_10,R128,Romina Sarina Oprandi,,,ITA,6,6,,,,1,1,0,0,0,2,Aniko Kapros,,,HUN,1,1,,,,1,1,0,0,0,2
+2010_W_128_11,R128,Ekaterina Ivanova,,,RUS,6,6,,,,1,1,0,0,0,2,Katalin Marosi,,,HUN,1,4,,,,1,1,0,0,0,2
+2010_W_128_12,R128,Shannon Maree Golds,,,AUS,7,6,,,,1,1,0,0,0,2,Stephanie Cohen-Aloro,23,,FRA,6,4,,,,1,1,0,0,0,2
+2010_W_128_13,R128,Bethanie Mattek-Sands,4,,USA,6,6,,,,1,1,0,0,0,2,Iryna Kuryanovich,,,BLR,2,1,,,,1,1,0,0,0,2
+2010_W_128_14,R128,Nina Bratchikova,,,RUS,7,6,,,,1,1,0,0,0,2,Elena Chalova,,,RUS,6,1,,,,1,1,0,0,0,2
+2010_W_128_15,R128,Julie Ditty,,,USA,6,6,,,,1,1,0,0,0,2,Margalita Chakhnashvili,,,GEO,4,3,,,,1,1,0,0,0,2
+2010_W_128_16,R128,Jelena Dokic,21,,AUS,6,6,,,,1,1,0,0,0,2,Melanie Klaffner,,,AUT,2,1,,,,1,1,0,0,0,2
+2010_W_128_17,R128,Shuai Zhang,5,,CHN,6,6,6,,,1,1,1,0,0,3,Anna Tatishvili,,,GEO,1,7,2,,,1,1,1,0,0,3
+2010_W_128_18,R128,Severine Beltrame,,,FRA,6,7,,,,1,1,0,0,0,2,Julia Cohen,,,USA,3,6,,,,1,1,0,0,0,2
+2010_W_128_19,R128,Marina Erakovic,,1,NZL,6,7,6,,,1,1,1,0,0,3,Emily Webley-Smith,,1,GBR,7,6,3,,,1,1,1,0,0,3
+2010_W_128_20,R128,Shenay Perry,17,,USA,6,7,,,,1,1,0,0,0,2,Lucy Brown,,1,GBR,2,5,,,,1,1,0,0,0,2
+2010_W_128_21,R128,Simona Halep,6,,ROU,6,7,6,,,1,1,1,0,0,3,Yulia Fedossova,,,FRA,7,6,2,,,1,1,1,0,0,3
+2010_W_128_22,R128,Anastasiya Yakimova,,,BLR,6,7,,,,1,1,0,0,0,2,Rebecca Marino,,,CAN,4,6,,,,1,1,0,0,0,2
+2010_W_128_23,R128,Misaki Doi,,,JPN,4,7,8,,,1,1,1,0,0,3,Ivana Lisjak,,,CRO,6,5,6,,,1,1,1,0,0,3
+2010_W_128_24,R128,Corinna Dentoni,,,ITA,6,2,6,,,1,1,1,0,0,3,Lilia Osterloh,18,,USA,4,6,4,,,1,1,1,0,0,3
+2010_W_128_25,R128,Evgeniya Rodina,7,,RUS,6,6,,,,1,1,0,0,0,2,Laura Pous Tio,,,ESP,4,2,,,,1,1,0,0,0,2
+2010_W_128_26,R128,Beatriz Garcia-Vidagany,,,ESP,4,7,6,,,1,1,1,0,0,3,Olivia Sanchez,,,FRA,6,6,3,,,1,1,1,0,0,3
+2010_W_128_27,R128,Madison Brengle,,,USA,6,6,,,,1,1,0,0,0,2,Ksenia Palkina,,,KGZ,2,1,,,,1,1,0,0,0,2
+2010_W_128_28,R128,Greta Arn,20,,HUN,6,6,,,,1,1,0,0,0,2,Irina Buryachok,,,UKR,2,4,,,,1,1,0,0,0,2
+2010_W_128_29,R128,Eva Birnerova,,,CZE,6,6,,,,1,1,0,0,0,2,Patricia Mayr,8,,AUT,2,3,,,,1,1,0,0,0,2
+2010_W_128_30,R128,Mirjana Lucic,,,CRO,6,6,,,,1,1,0,0,0,2,Anna Smith,,1,GBR,4,2,,,,1,1,0,0,0,2
+2010_W_128_31,R128,Zuzana Ondraskova,,,CZE,4,6,6,,,1,1,1,0,0,3,Rika Fujiwara,,,JPN,6,3,0,,,1,1,1,0,0,3
+2010_W_128_32,R128,Michaella Krajicek,13,,NED,6,6,,,,1,1,0,0,0,2,Neuza Silva,,,POR,1,3,,,,1,1,0,0,0,2
+2010_W_128_33,R128,Kurumi Nara,,,JPN,3,6,6,,,1,1,1,0,0,3,Sophie Ferguson,9,,AUS,6,3,2,,,1,1,1,0,0,3
+2010_W_128_34,R128,Tamira Paszek,,1,AUT,6,6,,,,1,1,0,0,0,2,Irina Begu,,,ROU,4,2,,,,1,1,0,0,0,2
+2010_W_128_35,R128,Nikola Hofmanova,,,AUT,6,6,,,,1,1,0,0,0,2,Naomi Broady,,1,GBR,4,4,,,,1,1,0,0,0,2
+2010_W_128_36,R128,Stephanie Dubois,14,,CAN,6,6,,,,1,1,0,0,0,2,Eloisa Compostizo De Andres,,,ESP,1,1,,,,1,1,0,0,0,2
+2010_W_128_37,R128,Ekaterina Bychkova,10,,RUS,3,6,6,,,1,1,1,0,0,3,Olivia Rogowska,,,AUS,6,2,3,,,1,1,1,0,0,3
+2010_W_128_38,R128,Junri Namigata,,,JPN,6,4,14,,,1,1,1,0,0,3,Karolina Pliskova,,,CZE,2,6,12,,,1,1,1,0,0,3
+2010_W_128_39,R128,Monica Niculescu,,,ROU,6,6,,,,1,1,0,0,0,2,Jocelyn Rae,,1,GBR,3,4,,,,1,1,0,0,0,2
+2010_W_128_40,R128,Vitalia Diatchenko,,,RUS,6,6,,,,1,1,0,0,0,2,Kathrin Woerle,19,,GER,2,3,,,,1,1,0,0,0,2
+2010_W_128_41,R128,Anna Floris,,,ITA,7,3,6,,,1,1,1,0,0,3,Mona Barthel,,,GER,5,6,2,,,1,1,1,0,0,3
+2010_W_128_42,R128,Lisa Whybourn,,1,GBR,6,7,,,,1,1,0,0,0,2,Sally Peers,,,AUS,4,6,,,,1,1,0,0,0,2
+2010_W_128_43,R128,Naomi Cavaday,,,GBR,6,3,6,,,1,1,1,0,0,3,Lesya Tsurenko,,,UKR,2,6,3,,,1,1,1,0,0,3
+2010_W_128_44,R128,Andrea Hlavackova,22,,CZE,7,4,6,,,1,1,1,0,0,3,Oksana Kalashnikova,,,GEO,5,6,3,,,1,1,1,0,0,3
+2010_W_128_45,R128,Masa Zec Peskiric,12,,SLO,7,6,,,,1,1,0,0,0,2,Catalina Castano,,,COL,5,2,,,,1,1,0,0,0,2
+2010_W_128_46,R128,Eleni Daniilidou,,,GRE,7,6,,,,1,1,0,0,0,2,Heidi El Tabakh,,,CAN,6,3,,,,1,1,0,0,0,2
+2010_W_128_47,R128,Maria Irigoyen,,,ARG,3,6,4,,,1,1,1,0,0,3,Yi-Miao Zhou,,,CHN,6,2,1,,,1,1,1,0,0,3
+2010_W_128_48,R128,Anastasia Pivovarova,16,,RUS,6,6,,,,1,1,0,0,0,2,Silvia Soler Espinosa,,,ESP,1,3,,,,1,1,0,0,0,2
+2010_W_64_1,R64,Kaia Kanepi,1,,EST,6,6,,,,1,1,0,0,0,2,Elena Bovina,,,RUS,1,2,,,,1,1,0,0,0,2
+2010_W_64_2,R64,Ajla Tomljanovic,,,CRO,6,6,,,,1,1,0,0,0,2,Ekaterina Dzehalevich,,,BLR,4,3,,,,1,1,0,0,0,2
+2010_W_64_3,R64,Nuria Llagostera Vives,,,ESP,6,2,6,,,1,1,1,0,0,3,Sesil Karatantcheva,,,KAZ,3,6,3,,,1,1,1,0,0,3
+2010_W_64_4,R64,Vesna Manasieva,15,,RUS,6,6,,,,1,1,0,0,0,2,Xinyun Han,,,CHN,2,3,,,,1,1,0,0,0,2
+2010_W_64_5,R64,Romina Sarina Oprandi,,,ITA,6,6,,,,1,1,0,0,0,2,Ksenia Pervak,3,,RUS,3,4,,,,1,1,0,0,0,2
+2010_W_64_6,R64,Ekaterina Ivanova,,,RUS,6,6,,,,1,1,0,0,0,2,Shannon Maree Golds,,,AUS,2,2,,,,1,1,0,0,0,2
+2010_W_64_7,R64,Bethanie Mattek-Sands,4,,USA,6,0,6,,,1,1,1,0,0,3,Nina Bratchikova,,,RUS,3,6,2,,,1,1,1,0,0,3
+2010_W_64_8,R64,Julie Ditty,,,USA,5,7,6,,,1,1,1,0,0,3,Jelena Dokic,21,,AUS,7,5,2,,,1,1,1,0,0,3
+2010_W_64_9,R64,Severine Beltrame,,,FRA,6,6,,,,1,1,0,0,0,2,Shuai Zhang,5,,CHN,0,2,,,,1,1,0,0,0,2
+2010_W_64_10,R64,Shenay Perry,17,,USA,6,6,,,,1,1,0,0,0,2,Marina Erakovic,,1,NZL,4,2,,,,1,1,0,0,0,2
+2010_W_64_11,R64,Anastasiya Yakimova,,,BLR,6,6,,,,1,1,0,0,0,2,Simona Halep,6,,ROU,4,1,,,,1,1,0,0,0,2
+2010_W_64_12,R64,Misaki Doi,,,JPN,6,6,,,,1,1,0,0,0,2,Corinna Dentoni,,,ITA,4,2,,,,1,1,0,0,0,2
+2010_W_64_13,R64,Beatriz Garcia-Vidagany,,,ESP,6,6,,,,1,1,0,0,0,2,Evgeniya Rodina,7,,RUS,4,2,,,,1,1,0,0,0,2
+2010_W_64_14,R64,Greta Arn,20,,HUN,6,7,,,,1,1,0,0,0,2,Madison Brengle,,,USA,1,6,,,,1,1,0,0,0,2
+2010_W_64_15,R64,Mirjana Lucic,,,CRO,6,7,,,,1,1,0,0,0,2,Eva Birnerova,,,CZE,1,5,,,,1,1,0,0,0,2
+2010_W_64_16,R64,Michaella Krajicek,13,,NED,6,6,,,,1,1,0,0,0,2,Zuzana Ondraskova,,,CZE,2,3,,,,1,1,0,0,0,2
+2010_W_64_17,R64,Kurumi Nara,,,JPN,7,6,,,,1,1,0,0,0,2,Tamira Paszek,,1,AUT,5,4,,,,1,1,0,0,0,2
+2010_W_64_18,R64,Stephanie Dubois,14,,CAN,7,6,,,,1,1,0,0,0,2,Nikola Hofmanova,,,AUT,6,4,,,,1,1,0,0,0,2
+2010_W_64_19,R64,Junri Namigata,,,JPN,3,6,6,,,1,1,1,0,0,3,Ekaterina Bychkova,10,,RUS,6,4,4,,,1,1,1,0,0,3
+2010_W_64_20,R64,Monica Niculescu,,,ROU,7,6,,,,1,1,0,0,0,2,Vitalia Diatchenko,,,RUS,5,2,,,,1,1,0,0,0,2
+2010_W_64_21,R64,Lisa Whybourn,,1,GBR,6,6,,,,1,1,0,0,0,2,Anna Floris,,,ITA,1,4,,,,1,1,0,0,0,2
+2010_W_64_22,R64,Andrea Hlavackova,22,,CZE,6,6,,,,1,1,0,0,0,2,Naomi Cavaday,,,GBR,1,2,,,,1,1,0,0,0,2
+2010_W_64_23,R64,Eleni Daniilidou,,,GRE,6,6,,,,1,1,0,0,0,2,Masa Zec Peskiric,12,,SLO,2,2,,,,1,1,0,0,0,2
+2010_W_64_24,R64,Anastasia Pivovarova,16,,RUS,6,6,,,,1,1,0,0,0,2,Maria Irigoyen,,,ARG,2,4,,,,1,1,0,0,0,2
+2010_W_32_1,R32,Kaia Kanepi,1,,EST,6,6,,,,1,1,0,0,0,2,Ajla Tomljanovic,,,CRO,1,2,,,,1,1,0,0,0,2
+2010_W_32_2,R32,Nuria Llagostera Vives,,,ESP,7,6,,,,1,1,0,0,0,2,Vesna Manasieva,15,,RUS,6,4,,,,1,1,0,0,0,2
+2010_W_32_3,R32,Romina Sarina Oprandi,,,ITA,6,3,6,,,1,1,1,0,0,3,Ekaterina Ivanova,,,RUS,3,6,4,,,1,1,1,0,0,3
+2010_W_32_4,R32,Bethanie Mattek-Sands,4,,USA,6,4,6,,,1,1,1,0,0,3,Julie Ditty,,,USA,1,6,4,,,1,1,1,0,0,3
+2010_W_32_5,R32,Shenay Perry,17,,USA,3,6,6,,,1,1,1,0,0,3,Severine Beltrame,,,FRA,6,4,3,,,1,1,1,0,0,3
+2010_W_32_6,R32,Anastasiya Yakimova,,,BLR,2,6,6,,,1,1,1,0,0,3,Misaki Doi,,,JPN,6,4,4,,,1,1,1,0,0,3
+2010_W_32_7,R32,Greta Arn,20,,HUN,5,6,6,,,1,1,1,0,0,3,Beatriz Garcia-Vidagany,,,ESP,7,3,2,,,1,1,1,0,0,3
+2010_W_32_8,R32,Mirjana Lucic,,,CRO,6,6,,,,1,1,0,0,0,2,Michaella Krajicek,13,,NED,3,2,,,,1,1,0,0,0,2
+2010_W_32_9,R32,Kurumi Nara,,,JPN,7,6,,,,1,1,0,0,0,2,Stephanie Dubois,14,,CAN,6,4,,,,1,1,0,0,0,2
+2010_W_32_10,R32,Monica Niculescu,,,ROU,6,6,,,,1,1,0,0,0,2,Junri Namigata,,,JPN,4,0,,,,1,1,0,0,0,2
+2010_W_32_11,R32,Andrea Hlavackova,22,,CZE,6,6,,,,1,1,0,0,0,2,Lisa Whybourn,,1,GBR,1,2,,,,1,1,0,0,0,2
+2010_W_32_12,R32,Eleni Daniilidou,,,GRE,6,6,,,,1,1,0,0,0,2,Anastasia Pivovarova,16,,RUS,0,0,,,,1,1,0,0,0,2

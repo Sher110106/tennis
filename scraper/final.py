@@ -35,8 +35,8 @@ def create_match_pairs(player_list):
     return [(player_list[i], player_list[i + 1]) for i in range(0, len(player_list) - 1, 2)]
 
 
-# Updated match_player function to handle names correctly
-def match_player(winner_abbr, player):
+# Updated match_player function to handle names correctly with fallback to last name only
+def match_player(winner_abbr, player, fallback_to_last_name=True):
     # Remove seeding from abbreviation (e.g., [1])
     winner_abbr = re.sub(r'\s*\[\d+\]', '', winner_abbr).strip()
     parts = winner_abbr.split()
@@ -83,6 +83,11 @@ def match_player(winner_abbr, player):
     if last_name_match:
         if initials_match or (len(winner_initials) == 1 and len(player_initials) >= 1):
             return True
+        
+        # Fallback to last name only if requested
+        if fallback_to_last_name:
+            return True
+            
     return False
 
 
@@ -432,33 +437,57 @@ for i, section in enumerate(match_result_sections):
         result = results[j]
         winner_abbr = result["winner_abbr"]
         sets = result["sets"]
-        if match_player(winner_abbr, p1):
+        
+        # First try with strict matching (no fallback)
+        if match_player(winner_abbr, p1, fallback_to_last_name=False):
             winner, loser = p1, p2
             print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']}")
-        elif match_player(winner_abbr, p2):
+        elif match_player(winner_abbr, p2, fallback_to_last_name=False):
             winner, loser = p2, p1
             print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']}")
         else:
-            print(f"{section} Match {j + 1}: Cannot match '{winner_abbr}' to {p1['name']} or {p2['name']}")
-            if j < len(next_winners) and next_winners[j]:
-                if match_player(next_winners[j], p1):
-                    winner, loser = p1, p2
-                    print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (via next round)")
-                elif match_player(next_winners[j], p2):
-                    winner, loser = p2, p1
-                    print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (via next round)")
+            # If strict matching failed, try with fallback to last name only
+            if match_player(winner_abbr, p1, fallback_to_last_name=True):
+                winner, loser = p1, p2
+                print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (matched by last name)")
+            elif match_player(winner_abbr, p2, fallback_to_last_name=True):
+                winner, loser = p2, p1
+                print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (matched by last name)")
+            else:
+                # If even fallback matching fails, try next round information
+                print(f"{section} Match {j + 1}: Cannot match '{winner_abbr}' to {p1['name']} or {p2['name']}")
+                if j < len(next_winners) and next_winners[j]:
+                    if match_player(next_winners[j], p1):
+                        winner, loser = p1, p2
+                        print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (via next round)")
+                    elif match_player(next_winners[j], p2):
+                        winner, loser = p2, p1
+                        print(f"{section} Match {j + 1}: {winner['name']} beat {loser['name']} (via next round)")
+                    else:
+                        winner, loser = p1, p2
+                        print(f"{section} Match {j + 1}: Fallback to {winner['name']} (unmatched '{next_winners[j]}')")
                 else:
                     winner, loser = p1, p2
-                    print(f"{section} Match {j + 1}: Fallback to {winner['name']} (unmatched '{next_winners[j]}')")
-            else:
-                winner, loser = p1, p2
-                print(f"{section} Match {j + 1}: Fallback to {winner['name']} (no next round info)")
+                    print(f"{section} Match {j + 1}: Fallback to {winner['name']} (no next round info)")
+        
+        # Extract set scores
         w_scores = [sets[k][0] if k < len(sets) else "" for k in range(5)]
         l_scores = [sets[k][1] if k < len(sets) else "" for k in range(5)]
+        
+        # Calculate set participation (1 if played, 0 if not)
+        w_set_participation = [1 if w_scores[k] and w_scores[k] != "retired" else 0 for k in range(5)]
+        l_set_participation = [1 if l_scores[k] and (len(sets[k]) > 1 if k < len(sets) else False) else 0 for k in range(5)]
+        
+        # Calculate total sets played
+        w_set = sum(w_set_participation)
+        l_set = sum(l_set_participation)
+        
         match_id_str = f"{year}_{gender}_{round_num}_{match_num}"
         match_rows.append([
             match_id_str, round_label, winner["name"], winner["seeding"], winner["wild"], winner["country"],
-            *w_scores, loser["name"], loser["seeding"], loser["wild"], loser["country"], *l_scores
+            *w_scores, *w_set_participation, w_set,
+            loser["name"], loser["seeding"], loser["wild"], loser["country"],
+            *l_scores, *l_set_participation, l_set
         ])
         match_num += 1
         winners.append(winner)
@@ -470,10 +499,12 @@ if not os.path.exists("output.csv"):
         writer = csv.writer(csvfile)
         writer.writerow(["Match Id", "Round", "W_name", "W_seed", "W_Wc", "W_country",
                          "W_set1", "W_set2", "W_set3", "W_set4", "W_set5",
+                         "W_set1_p", "W_set2_p", "W_set3_p", "W_set4_p", "W_set5_p", "W_set",
                          "L_name", "L_seed", "L_Wc", "L_country",
-                         "L_set1", "L_set2", "L_set3", "L_set4", "L_set5"])
+                         "L_set1", "L_set2", "L_set3", "L_set4", "L_set5",
+                         "L_set1_p", "L_set2_p", "L_set3_p", "L_set4_p", "L_set5_p", "L_set"])
 with open("output.csv", "a", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(match_rows)
 
-print("CSV file 'output.csv' has been updated.")
+print("CSV file 'output.csv' has been updated with set participation and total sets columns.")
